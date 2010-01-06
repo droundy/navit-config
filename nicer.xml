@@ -1,0 +1,45 @@
+<osd enabled="yes" type="text" label="${vehicle.position_speed}"
+     x="5" y="46" font_size="800"
+     w="200" h="55" align="4" background_color="#1b0877cc"/>
+<osd enabled="yes" type="text"
+     label="ETA: ${navigation.item.destination_time[arrival]}" x="-220"
+     y="46" font_size="500" w="215" h="40" align="4"
+     background_color="#1b0877cc"/> 
+<osd enabled="yes" type="text" label="Left to Go"
+     x="-175" y="87" font_size="400" w="170" h="40"
+     align="4" background_color="#1b0877cc"/>
+<osd enabled="yes" type="text"
+     label="${navigation.item.destination_length[named]}"
+     x="-200" y="128" font_size="550" w="195" h="40"
+     align="4" background_color="#1b0877cc"/>
+<osd enabled="yes" type="text"
+     label="${navigation.item.destination_time[remaining]}"
+     x="-200" y="169" font_size="550" w="195" h="40"
+     align="4" background_color="#1b0877cc"/>
+<osd enabled="yes" type="text"
+     label="In ${navigation.item[1].length[named]} "
+     x="-320" y="-86" font_size="650" w="235" h="45"
+     align="4" background_color="#1b0877cc"/> 
+<osd enabled="yes" type="navigation_next_turn"
+     x="-85" y="-106" font_size="500" w="80" h="65"
+     background_color="#1b0877cc"/>  
+<osd enabled="yes" type="text" label="onto
+     ${navigation.item[1].street_name}"
+     x="-555" y="-40" font_size="550" w="550" h="35"
+     align="4" background_color="#1b0877cc"/>
+<osd enabled="yes" type="text"
+     label="${navigation.item.street_name} Max:${tracking.item.route_speed}" 
+     x="5" y="5" align="0" w="790" h="40"
+     background_color="#1b0877cc" font_size="550"/> 	
+<osd enabled="yes" type="gps_status"
+     x="5" y="101" w="50" h="40" background_color="#1b0877cc"/>
+<osd enabled="yes"  type="button"
+     x="5" y="-120" command="zoom_in()" src="gui_zoom_in.png"/>
+<osd enabled="yes"  type="button"
+     x="60" y="-60" command="zoom_out()" src="gui_zoom_out.png"/> 
+<osd enabled="yes"  type="button"
+     x="5" y="-60" command="gui.fullscreen()" src="gui_fullscreen.png"/>
+<osd enabled="no" type="speed_warner"
+     x="-60" y="180" w="60" h="60"/> 
+<osd enabled="no" type="button"
+     x="0" y="0" command="gui_internal_menu" src="menu.xpm"/>
