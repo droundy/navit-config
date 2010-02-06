@@ -10,15 +10,13 @@
     <announcement level="2" distance_metric="200"/>
   </roadprofile>
   <!-- 35 mph -->
-  <roadprofile item_types="street_2_city,track_paved"
-               speed="56" route_weight="56">
+  <roadprofile item_types="street_2_city,track_paved" speed="56" route_weight="56">
     <announcement level="0" distance_metric="50"/>
     <announcement level="1" distance_metric="200"/>
     <announcement level="2" distance_metric="500"/>
   </roadprofile>
   <!-- 45 mph -->
-  <roadprofile item_types="street_3_city"
-               speed="72" route_weight="72">
+  <roadprofile item_types="street_3_city" speed="72" route_weight="72">
     <announcement level="0" distance_metric="50"/>
     <announcement level="1" distance_metric="200"/>
     <announcement level="2" distance_metric="500"/>
@@ -60,8 +58,7 @@
     <announcement level="2" distance_metric="1000"/>
   </roadprofile>
   <!-- 65 mph -->
-  <roadprofile item_types="street_n_lanes"
-               speed="104" route_weight="104">
+  <roadprofile item_types="street_n_lanes" speed="104" route_weight="104">
     <announcement level="0" distance_metric="300"/>
     <announcement level="1" distance_metric="1000"/>
     <announcement level="2" distance_metric="2000"/>

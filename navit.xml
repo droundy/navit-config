@@ -30,7 +30,7 @@
 
 	<navit center="4808 N 1134 E" zoom="256" tracking="1"
 	       orientation="-1" recent_dest="10"
-               autozoom_active="0" timeout="30">
+               autozoom_active="1" timeout="30">
 		<!-- Use one of gtk_drawing_area, qt_qpainter or sdl. For cegui, use opengl -->
 		<graphics type="gtk_drawing_area"/>
 		<!-- The following line let you select which graphical user interface you'd like to use.

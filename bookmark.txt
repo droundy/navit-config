@@ -1,4 +1,6 @@
-mg:-0xd13493 0x54b2a3 type=bookmark label="Home"
+mg:-0xd134b8 0x54b2c0 type=bookmark label="Elmwood Home"
 mg:-0xd0d395 0x5365de type=bookmark label="U of O"
 mg:-0xd0d091 0x556665 type=bookmark label="Kaiser Skyline"
 mg:-0xd12a13 0x54a5ee type=bookmark label="Weniger"
+mg:-0xd000e7 0x571a1e type=bookmark label="PDX"
+mg:-0xd156ab 0x549795 type=bookmark label="Leavengoods"
