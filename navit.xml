@@ -30,7 +30,7 @@
 
 	<navit center="4808 N 1134 E" zoom="256" tracking="1"
 	       orientation="-1" recent_dest="10"
-               autozoom_active="1" timeout="30">
+               autozoom_active="1" timeout="30" pitch="30">
 		<!-- Use one of gtk_drawing_area, qt_qpainter or sdl. For cegui, use opengl -->
 		<graphics type="gtk_drawing_area"/>
 		<!-- The following line let you select which graphical user interface you'd like to use.
@@ -42,7 +42,8 @@
 			 Here's an example for a freerunner: -->
 		<!-- <gui type="internal" font_size="350" icon_xs="32" icon_s="96" icon_l="96"/> -->
 
-		<gui type="internal" enabled="yes" fullscreen="1"><![CDATA[
+		<gui type="internal" enabled="yes" keyboard="false"
+                     fullscreen="1"><![CDATA[
 	          <html>
 		    <a name='Main Menu'><text>Main menu</text>
 		      <a href='#Actions'><img src='gui_actions'>Actions</img></a>
@@ -138,7 +139,12 @@
 		<!-- <speech type="cmdline" data="echo 'Fix the speech
 			 tag in navit.xml to let navit say:' '%s'"
 			 cps="15"/> -->
-		<speech type="cmdline" data="flite -t '%s'" cps="10"/>
+                <speech type="cmdline"
+                        data="espeak --stdout -ven+f4 '%s' | aplay -"
+                        cps="15" />
+		<!-- <speech type="cmdline"
+                        data="flite -t "%s""
+			cps="10"/> -->
                 <!-- <speech type="cmdline" data="spd-say '%s'"/> -->
 
 		<!-- If you have the reiseplaner maps installed, set enabled="yes" in the next line and set the path correctly -->
