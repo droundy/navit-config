@@ -138,8 +138,8 @@
 		<!-- <speech type="cmdline" data="echo 'Fix the speech
 			 tag in navit.xml to let navit say:' '%s'"
 			 cps="15"/> -->
-		<!-- <speech type="cmdline" data="flite -t '%s'" cps="10"/> -->
-                <speech type="cmdline" data="spd-say '%s'"/>
+		<speech type="cmdline" data="flite -t '%s'" cps="10"/>
+                <!-- <speech type="cmdline" data="spd-say '%s'"/> -->
 
 		<!-- If you have the reiseplaner maps installed, set enabled="yes" in the next line and set the path correctly -->
 		<mapset enabled="no">
