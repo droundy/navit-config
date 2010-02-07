@@ -164,7 +164,7 @@
 
 		<!-- Mapset template for openstreetmaps -->
 		<mapset enabled="yes">
-			<map type="binfile" enabled="yes" data="/mnt/home/droundy/.navit/maps/oregon.bin"/>
+			<map type="binfile" enabled="yes" data="/mnt/home/droundy/.navit/maps/planet.bin"/>
 		</mapset>
 
 		<!-- Mapset template for garmin maps -->
