@@ -164,7 +164,10 @@
 
 		<!-- Mapset template for openstreetmaps -->
 		<mapset enabled="yes">
-			<map type="binfile" enabled="yes" data="/mnt/home/droundy/.navit/maps/planet.bin"/>
+                  <!-- planet.bin downloaded from
+                       http://maps.navit-project.org/planet.bin -->
+		  <map type="binfile" enabled="yes"
+                       data="/mnt/home/droundy/.navit/maps/planet.bin"/>
 		</mapset>
 
 		<!-- Mapset template for garmin maps -->
