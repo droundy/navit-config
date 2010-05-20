@@ -1,0 +1,8 @@
+mg:-0xd134b8 0x54b2c0 type=bookmark label="Elmwood Home"
+mg:-0xd0d395 0x5365de type=bookmark label="U of O"
+mg:-0xd0d091 0x556665 type=bookmark label="Kaiser Skyline"
+mg:-0xd12a13 0x54a5ee type=bookmark label="Weniger"
+mg:-0xd156ab 0x549795 type=bookmark label="Leavengoods"
+mg:-0xd03939 0x56b78f type=bookmark label="Steph's house"
+mg:-0xd01f62 0x56f3a8 type=bookmark label="Oregon Convention Center"
+mg:-0xd01c5f 0x56f7bf type=bookmark label="Lloyd Center Mall parking"

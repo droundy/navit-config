@@ -30,7 +30,7 @@
 
 	<navit center="4808 N 1134 E" zoom="256" tracking="1"
 	       orientation="-1" recent_dest="10"
-               autozoom_active="1" timeout="30" pitch="30">
+               autozoom_active="0" timeout="30" pitch="20">
 		<!-- Use one of gtk_drawing_area, qt_qpainter or sdl. For cegui, use opengl -->
 		<graphics type="gtk_drawing_area"/>
 		<!-- The following line let you select which graphical user interface you'd like to use.
@@ -47,6 +47,12 @@
 	          <html>
 		    <a name='Main Menu'><text>Main menu</text>
 		      <a href='#Actions'><img src='gui_actions'>Actions</img></a>
+		      <img cond='navit.autozoom_active==0'
+		      src='gui_map'
+		      onclick='navit.autozoom_active=1;redraw_map();back_to_map()'><text>Autozoom on</text></img>
+		      <img cond='navit.autozoom_active!=0'
+		      src='gui_map'
+		      onclick='navit.autozoom_active=0;redraw_map();back_to_map()'><text>Autozoom off</text></img>
 		      <img cond='flags&amp;2' src='gui_map' onclick='back_to_map()'><text>Show Map</text></img>
 		      <!-- <a href='#Settings'><img src='gui_settings'><text>Settings</text></img></a> -->
 		      <!-- <a href='#Tools'><img src='gui_tools'><text>Tools</text></img></a> -->
