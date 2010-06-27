@@ -1,0 +1,3 @@
+mg:-0xd134b8 0x54b2c0 type=bookmark label="Elmwood Home" path="Elmwood Home"
+mg:-0x92a935 0x3efff0 type=bookmark label="Sampsons' residence" path="Sampsons' residence"
+mg:-0x92f850 0x3eee5b type=bookmark label="Easons" path="Easons"
