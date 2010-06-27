@@ -146,8 +146,11 @@
 			 tag in navit.xml to let navit say:' '%s'"
 			 cps="15"/> -->
                 <speech type="cmdline"
-                        data="espeak --stdout -ven+f4 '%s' | aplay -"
+                        data="echo '%s' | festival --tts"
                         cps="15" />
+                <!-- <speech type="cmdline"
+                        data="espeak --stdout -ven+f4 '%s' | aplay -"
+                        cps="15" /> -->
 		<!-- <speech type="cmdline"
                         data="flite -t "%s""
 			cps="10"/> -->
